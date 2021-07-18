@@ -3,6 +3,18 @@
 # Learn more about .gitignore:
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
+
+
+#Visual Studio files
+.vs
+plugin-manager-mobile/.vs
+plugin-manager-mobile/obj
+plugin-manager-mobile/bin
+plugin-manager-mobile.Android/obj
+plugin-manager-mobile.Android/bin
+plugin-manager-mobile.iOS/obj
+plugin-manager-mobile.iOS/bin
+
 # Node artifact files
 node_modules/
 dist/
