@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="plugin_manager_mobile.Views.PluginListPage"
+             xmlns:vm="clr-namespace:plugin_manager_mobile.ViewModels"
+             x:Name="BrowsePluginsPage">
+
+    <ContentPage.BindingContext>
+        <vm:PluginsViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <Style x:Key="label" TargetType="Label">
+            <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            
+        </Style>
+
+    </ContentPage.Resources>
+    <StackLayout>
+        <Label Text="Plugins"></Label>
+        <ListView x:Name="PluginList"
+            ItemsSource="{Binding Plugins}"
+            ItemTapped="Handle_ItemTapped"
+            CachingStrategy="RecycleElement">
+            <!--Built in Cells-->
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <!--change to grid-->
+                        <Grid HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Text="{Binding Name}" Style="{StaticResource label}"/>
+                            <Label Grid.Column="1" Text="{Binding Category}" Style="{StaticResource label}"/>
+
+                        </Grid>
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+            <!--Custom View Cells-->
+            <!--
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <StackLayout>
+            <Label Text="{Binding Text}" 
+                   Style="{DynamicResource ListItemTextStyle}" />
+            <Label Text="{Binding Detail}" 
+                   Style="{DynamicResource ListItemDetailTextStyle}"/>
+          </StackLayout>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+    -->
+        </ListView>
+    </StackLayout>
+    
+</ContentPage>

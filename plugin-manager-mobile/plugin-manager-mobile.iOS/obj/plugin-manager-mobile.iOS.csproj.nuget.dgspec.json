@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin-manager-mobile.csproj": {
-                "projectPath": "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin-manager-mobile.csproj"
+              "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin_manager_mobile.csproj": {
+                "projectPath": "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin_manager_mobile.csproj"
               }
             }
           }
@@ -65,12 +65,12 @@
         }
       }
     },
-    "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin-manager-mobile.csproj": {
+    "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin_manager_mobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin-manager-mobile.csproj",
-        "projectName": "plugin-manager-mobile",
-        "projectPath": "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin-manager-mobile.csproj",
+        "projectUniqueName": "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin_manager_mobile.csproj",
+        "projectName": "plugin_manager_mobile",
+        "projectPath": "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\plugin_manager_mobile.csproj",
         "packagesPath": "C:\\Users\\Jeremy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile\\obj\\",
         "projectStyle": "PackageReference",

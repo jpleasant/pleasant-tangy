@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="PluginManager_Mobile.Views.PluginListView"
+             
+             >
+
+    <ContentPage.Resources>
+        <Style x:Key="label" TargetType="Label">
+            <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+
+        </Style>
+        <Style x:Key="title" TargetType="Label">
+            <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+        <ResourceDictionary>
+            <xct:ItemSelectedEventArgsConverter x:Key="ItemSelectedEventArgsConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Label Text="All Plugins" Style="{StaticResource title}" Padding="0,30,0,20"></Label>
+        <RefreshView Command="{Binding LoadAll}" IsRefreshing="{Binding IsBusy}" >
+            <ListView x:Name="PluginList"
+            ItemsSource="{Binding Plugins}"           
+            CachingStrategy="RecycleElement">
+                <!--Built in Cells-->
+                <ListView.Behaviors>
+                    <xct:EventToCommandBehavior EventName="ItemSelected" Command="{Binding PluginSelected}" EventArgsConverter="{StaticResource ItemSelectedEventArgsConverter}"/>
+                </ListView.Behaviors>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <!--change to grid-->
+                            <Grid HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0" Text="{Binding name}" Style="{StaticResource label}"/>
+                                <Label Grid.Column="1" Text="{Binding category}" Style="{StaticResource label}"/>
+                            </Grid>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+                <!--Custom View Cells-->
+                <!--
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <StackLayout>
+            <Label Text="{Binding Text}" 
+                   Style="{DynamicResource ListItemTextStyle}" />
+            <Label Text="{Binding Detail}" 
+                   Style="{DynamicResource ListItemDetailTextStyle}"/>
+          </StackLayout>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+    -->
+            </ListView>
+        </RefreshView>
+        
+    </StackLayout>
+
+</ContentPage>

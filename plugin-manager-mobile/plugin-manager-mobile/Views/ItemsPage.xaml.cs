@@ -26,7 +26,6 @@ namespace plugin_manager_mobile.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            _viewModel.OnAppearing();
         }
     }
 }

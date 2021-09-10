@@ -13,7 +13,8 @@ namespace plugin_manager_mobile
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
+            //DependencyService.Register<MockDataStore>();
+            DependencyService.Register<IPluginService, PluginService>();
             MainPage = new AppShell();
         }
 
@@ -28,5 +29,6 @@ namespace plugin_manager_mobile
         protected override void OnResume()
         {
         }
+
     }
 }

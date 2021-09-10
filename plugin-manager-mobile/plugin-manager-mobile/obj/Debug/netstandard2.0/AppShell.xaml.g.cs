@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("plugin-manager-mobile.AppShell.xaml", "AppShell.xaml", typeof(global::plugin_manager_mobile.AppShell))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("plugin_manager_mobile.AppShell.xaml", "AppShell.xaml", typeof(global::plugin_manager_mobile.AppShell))]
 
 namespace plugin_manager_mobile {
     

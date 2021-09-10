@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("plugin-manager-mobile.Views.AboutPage.xaml", "Views/AboutPage.xaml", typeof(global::plugin_manager_mobile.Views.AboutPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("plugin_manager_mobile.Views.AboutPage.xaml", "Views/AboutPage.xaml", typeof(global::plugin_manager_mobile.Views.AboutPage))]
 
 namespace plugin_manager_mobile.Views {
     

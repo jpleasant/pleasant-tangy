@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "2FAssb4lYaMd3bPDL6aXtPhLyxarZZ/kf0KjjtQE37Y2Sp5jx3eL6HLutycPXwqS/2OlmGByNCjcdDRnt/JgqA==",
+  "dgSpecHash": "mV4Q4FQ3pTvG+X0dIJ253ETpDxgHoUU/3KRu6D/fKya95pC+CBhvl7hB3X5u6NLvLVLdKqCyIztOkgEYYpanHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jeremy\\Documents\\DevProjects\\Plugin Manager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile.iOS\\plugin-manager-mobile.iOS.csproj",
+  "projectFilePath": "C:\\DevProjects\\PluginManager\\mobile\\plugin-manager-mobile\\plugin-manager-mobile.iOS\\plugin_manager_mobile.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\Jeremy\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\Jeremy\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jeremy\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Jeremy\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Jeremy\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }
