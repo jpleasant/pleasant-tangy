@@ -26,7 +26,6 @@ C:\DevProjects\PluginManager_Mobile\PluginManager_Mobile\PluginManager_Mobile\ob
 C:\DevProjects\PluginManager_Mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\PluginManager_Mobile.dll
 C:\DevProjects\PluginManager_Mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\ref\PluginManager_Mobile.dll
 C:\DevProjects\PluginManager_Mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\PluginManager_Mobile.pdb
-C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\PluginManager_Mobile.csprojAssemblyReference.cache
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\PluginManager_Mobile.dll
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\ref\PluginManager_Mobile.dll
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\PluginManager_Mobile.pdb
@@ -38,7 +37,9 @@ C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\ob
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\PluginManager_Mobile.csproj.CoreCompileInputs.cache
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\bin\Debug\netstandard2.0\PluginManager_Mobile.deps.json
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\bin\Debug\netstandard2.0\PluginManager_Mobile.dll
-C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\bin\Debug\netstandard2.0\ref\PluginManager_Mobile.dll
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\bin\Debug\netstandard2.0\PluginManager_Mobile.pdb
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\XamlC.stamp
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\Views\PluginDetailPage.xaml.g.cs
+C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\PluginManager_Mobile.csproj.AssemblyReference.cache
+C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\PluginManager_Mobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile\obj\Debug\netstandard2.0\refint\PluginManager_Mobile.dll

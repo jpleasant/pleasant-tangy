@@ -1076,8 +1076,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jeremy\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\jerem\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1085,17 +1084,13 @@
       "projectUniqueName": "C:\\DevProjects\\PluginManager\\mobile\\PluginManager_Mobile\\PluginManager_Mobile.iOS\\PluginManager_Mobile.iOS.csproj",
       "projectName": "PluginManager_Mobile.iOS",
       "projectPath": "C:\\DevProjects\\PluginManager\\mobile\\PluginManager_Mobile\\PluginManager_Mobile.iOS\\PluginManager_Mobile.iOS.csproj",
-      "packagesPath": "C:\\Users\\Jeremy\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
       "outputPath": "C:\\DevProjects\\PluginManager\\mobile\\PluginManager_Mobile\\PluginManager_Mobile.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Jeremy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"

@@ -44,8 +44,8 @@
                                     <ColumnDefinition />
                                     <ColumnDefinition />
                                 </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0" Text="{Binding name}" Style="{StaticResource label}"/>
-                                <Label Grid.Column="1" Text="{Binding category}" Style="{StaticResource label}"/>
+                                <Label Grid.Column="0" Text="{Binding Name}" Style="{StaticResource label}"/>
+                                <Label Grid.Column="1" Text="{Binding Category.CategoryName}" Style="{StaticResource label}"/>
                             </Grid>
 
                         </ViewCell>

@@ -10,7 +10,6 @@ C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.An
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\MonoAndroid,Version=v10.0.AssemblyAttributes.cs
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\build.props
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\adb.props
-C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\PluginManager_Mobile.Android.csprojAssemblyReference.cache
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\stamp\_BuildLibraryImportsCache.stamp
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\res.flag
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\lp\48\jl\files.cache
@@ -629,3 +628,5 @@ C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.An
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
+C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\PluginManager_Mobile.Android.csproj.AssemblyReference.cache
+C:\DevProjects\PluginManager\mobile\PluginManager_Mobile\PluginManager_Mobile.Android\obj\Debug\100\android\assets\Java.Interop.pdb

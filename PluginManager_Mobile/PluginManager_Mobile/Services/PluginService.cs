@@ -19,7 +19,7 @@ namespace PluginManager_Mobile.Services
             _client.DefaultRequestHeaders.Accept.Clear();
             _client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
             
-            var response = await _client.GetAsync(new Uri("http://10.0.2.2:6200/api/plugins"));
+            var response = await _client.GetAsync(new Uri("https://staging.pluginmanager.fmedia.tv/api/plugins"));
             //var x = response.StatusCode;
             string content = await response.Content.ReadAsStringAsync();
             var result = JsonConvert.DeserializeObject<IEnumerable<Plugin>>(content);

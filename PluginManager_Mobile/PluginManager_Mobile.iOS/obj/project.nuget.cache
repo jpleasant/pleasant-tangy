@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mUK4dH8HaAU9DfAnDLmn1+uPTIeUy/znnsbVa43vWmO8RAvGWbBkdZnzprbJhpWOVcW7HP4E45dKacvJtx48pQ==",
+  "dgSpecHash": "FshkD+GUXz3COGRDWtOifrD0g9wFrBl1T0nMl90oGS5zmm790rCunKblbQs359zqCZAK7m9H1uNLkyM1GA1IAQ==",
   "success": true,
   "projectFilePath": "C:\\DevProjects\\PluginManager\\mobile\\PluginManager_Mobile\\PluginManager_Mobile.iOS\\PluginManager_Mobile.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Jeremy\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Jeremy\\.nuget\\packages\\xamarin.communitytoolkit\\1.2.0\\xamarin.communitytoolkit.1.2.0.nupkg.sha512",
-    "C:\\Users\\Jeremy\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Jeremy\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+    "C:\\Users\\jerem\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\jerem\\.nuget\\packages\\xamarin.communitytoolkit\\1.2.0\\xamarin.communitytoolkit.1.2.0.nupkg.sha512",
+    "C:\\Users\\jerem\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\jerem\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
   ],
   "logs": [
     {
