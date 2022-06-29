@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PluginManager_Mobile.Views.CategoryPage">
+    <ContentPage.Resources>
+        <Style x:Key="title" TargetType="Label">
+            <Setter Property="FontSize" Value="Title"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+        <Style x:Key="subTitle" TargetType="Label">
+            <Setter Property="FontSize" Value="Subtitle"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+        </Style>
+        <Style x:Key="catItem" TargetType="BoxView">
+            <Setter Property="HeightRequest" Value="100"/>
+            <Setter Property="WidthRequest" Value="170"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="CornerRadius" Value="25"/>
+            <Setter Property="Color" Value="Green"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Plugin Manager"                
+                Padding="0,40,0,0"
+                Style="{StaticResource title}"/>
+            <Label Text="Categories"                
+                Padding="0,20,0,0"
+                Style="{StaticResource subTitle}"/>
+            <FlexLayout Direction="Row" Padding="20,40,0,0" JustifyContent="Start" AlignItems="Start" Wrap="Wrap">
+                <BoxView Style="{StaticResource catItem}" />
+                <BoxView Style="{StaticResource catItem}" />
+                <BoxView Style="{StaticResource catItem}" />
+                <BoxView Style="{StaticResource catItem}" />
+            </FlexLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
