@@ -1,24 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PluginManager_Mobile.Views.CategoryPage">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="PluginManager_Mobile.Views.CategoryPage"
+             BackgroundColor="White">
     <ContentPage.Resources>
         <Style x:Key="title" TargetType="Label">
             <Setter Property="FontSize" Value="Title"/>
             <Setter Property="HorizontalOptions" Value="Center"/>
             <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="TextColor" Value="Black"/>
         </Style>
         <Style x:Key="subTitle" TargetType="Label">
             <Setter Property="FontSize" Value="Subtitle"/>
             <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="TextColor" Value="Black"/>
         </Style>
-        <Style x:Key="catItem" TargetType="BoxView">
-            <Setter Property="HeightRequest" Value="100"/>
-            <Setter Property="WidthRequest" Value="170"/>
+        <Style x:Key="catItem" TargetType="Frame">
+            <Setter Property="HeightRequest" Value="90"/>
+            <Setter Property="WidthRequest" Value="130"/>
             <Setter Property="Margin" Value="5"/>
             <Setter Property="CornerRadius" Value="25"/>
-            <Setter Property="Color" Value="Green"/>
+            <Setter Property="BackgroundColor" Value="Green"/>
         </Style>
+        
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
@@ -29,10 +33,33 @@
                 Padding="0,20,0,0"
                 Style="{StaticResource subTitle}"/>
             <FlexLayout Direction="Row" Padding="20,40,0,0" JustifyContent="Start" AlignItems="Start" Wrap="Wrap">
-                <BoxView Style="{StaticResource catItem}" />
-                <BoxView Style="{StaticResource catItem}" />
-                <BoxView Style="{StaticResource catItem}" />
-                <BoxView Style="{StaticResource catItem}" />
+                <Frame Style="{StaticResource catItem}">
+                    <Label FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Drums"/>
+                    <!--<Frame.Behaviors>
+                        <xct:EventToCommandBehavior EventName="Clicked" Command="{Binding CategorySelected}" />
+                    </Frame.Behaviors>-->
+                    
+                    <Frame.Triggers>
+                        <DataTrigger TargetType="Frame" Binding="{Binding IsActive}" Value="True">
+                            <Setter Property="BackgroundColor" Value="Blue"/>
+                        </DataTrigger>
+                    </Frame.Triggers>
+                </Frame>
+
+                <Frame Style="{StaticResource catItem}">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="{Binding CategorySelected}"/>
+                    </Frame.GestureRecognizers>
+                <Label FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Keys"/>
+                </Frame>
+
+                <Frame Style="{StaticResource catItem}">
+                    <Label FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Strings"/>
+                </Frame>
+                <Frame Style="{StaticResource catItem}">
+                    <Label FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Horns"/>
+                </Frame>
+
             </FlexLayout>
         </StackLayout>
     </ContentPage.Content>
