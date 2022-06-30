@@ -3,6 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PluginManager_Mobile.App">
     <Application.Resources>
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="#19323b"/>
+            <Setter Property="BarTextColor" Value="#fff"/>
+        </Style>
         <Style x:Key="MainHeader" TargetType="Label">
             <Setter Property="HorizontalOptions" Value="Center" />
             <Setter Property="VerticalOptions" Value="Center" />

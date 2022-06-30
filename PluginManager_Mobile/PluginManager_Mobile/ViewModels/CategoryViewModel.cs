@@ -19,7 +19,7 @@ namespace PluginManager_Mobile.ViewModels
         }
         async Task OnCategorySelected(Category c)
         {
-            IsActive = true;
+            
         }
     }
 }
