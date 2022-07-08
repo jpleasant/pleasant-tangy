@@ -12,7 +12,7 @@ namespace PluginManager_Mobile
             InitializeComponent();
 
             DependencyService.Register<IPluginService, PluginService>();
-            MainPage = new NavigationPage(new CategoryPage());
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()

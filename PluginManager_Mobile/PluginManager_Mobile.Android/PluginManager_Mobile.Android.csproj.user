@@ -6,5 +6,6 @@
     <ProjectView>ShowAllFiles</ProjectView>
     <ActiveDebugProfile>Google Pixel 4a %285G%29</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

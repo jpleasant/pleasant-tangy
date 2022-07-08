@@ -23,6 +23,15 @@
             <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
             <Setter Property="Color" Value="Green"/>
         </Style>
+        <Style x:Key="tile" TargetType="Button">
+            <Setter Property="HeightRequest" Value="120"/>
+            <Setter Property="WidthRequest" Value="180"/>
+            <Setter Property="FontSize" Value="Medium"/>
+            <Setter Property="TextColor" Value="#fff"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="CornerRadius" Value="25"/>
+        </Style>
+
         <Style TargetType="Button">
             <Setter Property="BackgroundColor" Value="BurlyWood"/>
         </Style>

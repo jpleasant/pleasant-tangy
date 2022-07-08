@@ -20,11 +20,10 @@
             <Setter Property="HeightRequest" Value="120"/>
             <Setter Property="WidthRequest" Value="180"/>
             <Setter Property="FontSize" Value="Medium"/>
-            <Setter Property="TextColor" Value="#19323b"/>
+            <Setter Property="TextColor" Value="#fff"/>
             <Setter Property="Margin" Value="5"/>
             <Setter Property="CornerRadius" Value="25"/>
-            <Setter Property="BorderColor" Value="#19323b"/>
-            <Setter Property="BorderWidth" Value="2"/>
+            
         </Style>
         
     </ContentPage.Resources>
@@ -35,7 +34,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Label Text="Categories"                
+                <Label Text="Plugin Chains"                
                 Padding="0,40,0,0"
                 Style="{StaticResource title}"/>
 
@@ -45,15 +44,10 @@
                             <VisualStateGroup Name="CommonStates">
                                 <VisualState Name="Normal">
                                     <VisualState.Setters>
-                                        <Setter Property="BackgroundColor" Value="#f8f8f8"/>
-                                    </VisualState.Setters>
-                                </VisualState>
-                                <VisualState Name="Pressed">
-                                    <VisualState.Setters>
                                         <Setter Property="BackgroundColor" Value="#19323b"/>
-                                        <Setter Property="TextColor" Value="White"/>
                                     </VisualState.Setters>
                                 </VisualState>
+                                
                             </VisualStateGroup>
                         </VisualStateManager.VisualStateGroups>
                     </Button>
