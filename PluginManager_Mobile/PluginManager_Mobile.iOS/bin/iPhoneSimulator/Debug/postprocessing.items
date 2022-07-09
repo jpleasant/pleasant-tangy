@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="PluginManager_Mobile.iOS.app/PluginManager_Mobile.iOS">
+      <BCSymbolMapName>PluginManager_Mobile.iOS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>PluginManager_Mobile.iOS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/iPhoneSimulator/Debug/mtouch-symbols.list</SymbolFile>
+      <DSymName>PluginManager_Mobile.iOS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/jpleasant/repos/FusionMedia/pluginmanager_mobile/PluginManager_Mobile/PluginManager_Mobile.iOS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

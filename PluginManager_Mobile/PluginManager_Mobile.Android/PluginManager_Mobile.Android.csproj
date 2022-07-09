@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -100,7 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PluginManager_Mobile\PluginManager_Mobile.csproj">
-      <Project>{5BB11F21-D5DC-40A6-A5D9-F3FF6F9C30DB}</Project>
+      <Project>{C995D86C-9D8A-4E35-A04F-CEE51F8B75F3}</Project>
       <Name>PluginManager_Mobile</Name>
     </ProjectReference>
   </ItemGroup>

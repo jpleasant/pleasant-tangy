@@ -8,7 +8,8 @@
     </NavigationPage.TitleView>
 
     <ContentPage.Content>
-        <Grid Margin="20,35,20,20">
+        <ScrollView Orientation="Neither">
+    <Grid Margin="20,35,20,20">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -30,5 +31,7 @@
             <Entry Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="4" FontSize="Medium" PlaceholderColor="#808080"
                    Placeholder="Try searching by name, description, or tag" TextColor="#333333"/>
         </Grid>
+        </ScrollView>
+    
     </ContentPage.Content>
 </ContentPage>
