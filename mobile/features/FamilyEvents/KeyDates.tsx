@@ -3,6 +3,7 @@ import {ThemedText} from "@/components/ThemedText";
 import {FeatureFactory, FEATURES} from "@/factories/FeatureFactory";
 import {useEffect, useState} from "react";
 import {getShortDate} from "@/utils/dateUtils";
+import {Link} from "expo-router";
 
 export default function KeyDatesView({}){
     const [dates, setDates] = useState<FamilyEventDetail[]>([]);
@@ -19,13 +20,16 @@ export default function KeyDatesView({}){
     type itemProp = {name:string, date:Date}
     const DateItem = ({name, date}:itemProp)=>(
         <View style={styles.dateItem}>
-            <Text>{name} - </Text>
-            <Text>{getShortDate(date)}</Text>
+            <Link href={{pathname: "/keyDateDetailPage", params:{name:name} }} >
+                <Text>{name} - </Text>
+                <Text>{getShortDate(date)}</Text>    
+            </Link>
+            
         </View>
     )
     return(
         
-        <View>
+        <View style={styles.container}>
             <ThemedText type={'title'} style={styles.title}>Key Dates</ThemedText>
                 <FlatList data={dates} renderItem={(item)=> <DateItem name={item.item.name} date={item.item.start} />} 
                 />
