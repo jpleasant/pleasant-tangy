@@ -1,18 +1,19 @@
 import {View, Text, StyleSheet} from "react-native";
 import {NativeStackScreenProps} from "@react-navigation/native-stack";
+import {ThemedView} from "@/components/ThemedView";
 
-export default function KeyDateDetail(props:{name:string}){
+export default function CalendarDetailView(props:{name:string}){
     
     return(
-        <View style={styles.container}>
+        <ThemedView style={styles.container}>
             <Text>{props.name}</Text>
-        </View>
+        </ThemedView>
     )
 }
 
 const styles= StyleSheet.create({
     container:{
-        backgroundColor:"#FFFFFF",
+        //backgroundColor:"#FFFFFF",
         height:"100%"
     }
 })

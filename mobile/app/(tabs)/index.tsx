@@ -1,8 +1,8 @@
-import KeyDatesView from "@/features/FamilyEvents/KeyDates";
+import FamilyCalendarView from "@/views/FamilyCalendar/FamilyCalendarView";
 
 export default function HomeScreen() {  
   return (
-    <KeyDatesView></KeyDatesView>
+    <FamilyCalendarView></FamilyCalendarView>
   );
 }
 
