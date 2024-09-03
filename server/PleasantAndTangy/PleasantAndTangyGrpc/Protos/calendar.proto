@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "PleasantAndTangyGrpc";
+
+package calendar;
+
+service Calendar {
+  rpc GetCalendarItems(Empty) returns (stream CalendarEvent);
+}
+
+message Empty {}
+
+message CalendarEvent {
+  string eventType = 1;
+  string name = 2;
+  string eventStart = 3;
+  string eventEnd = 4;
+  string details = 5;
+  bool reminder = 6;
+  uint32 reminderLength = 7;
+  uint32 reminderFrequency = 8;
+  
+}

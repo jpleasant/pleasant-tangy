@@ -7,23 +7,29 @@ import FamilyEventRpc from "@/views/FamilyCalendar/FamilyEventRpc";
 import {ThemedView} from "@/components/ThemedView";
 import {Colors} from "@/constants/Colors";
 import TextTag from "@/components/TextTag";
+import {setState} from "jest-circus";
 
 export default function FamilyCalendarView({}){
    const familyEvents: FamilyEvent = FamilyEventRpc();
     const [dates, setDates] = useState<FamilyEventDetail[]>([]);
-   
+   const [pressed, setPress] = useState(false);
     useEffect(()=>{
         const getDates = async()=> {
             const dates = await familyEvents.getAllFamilyEvents();
             setDates(dates);    
         }
         getDates();
+        
+        
     }, [dates])
     
+    const handlePress = ()=>{
+        setPress(true);
+    }
     type itemProp = {name:string, date:Date}
     const DateItem = ({name, date}:itemProp)=>(
         <View style={styles.dateItem}>
-            <Link  href={{pathname: "/family-calendar-detail", params:{name:name} }} >
+            <Link suppressHighlighting={true} href={{pathname: "/family-calendar-detail", params:{name:name} }} >
                 <ThemedText>{name}</ThemedText>                 
             </Link>
             <TextTag>{getShortDate(date)}</TextTag>
@@ -68,5 +74,8 @@ const styles = StyleSheet.create({
         gap: 8,
         marginBottom: 8,
     },
+    activeLink: {
+        opacity: 1
+    }
 
 });

@@ -1,0 +1,2 @@
+obj/Debug/net8.0/Protos/Calendar.cs \
+obj/Debug/net8.0/Protos/CalendarGrpc.cs: Protos/calendar.proto
